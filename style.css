@@ -307,3 +307,227 @@ nav a:hover {
     border-radius: 6px;
     box-shadow: 0 4px 8px black;
 }
+
+section.container {
+    width: 1440px;
+}
+
+.parent-container {
+    display: flex;
+    gap: 72px;
+    background-color: #211f54;
+}
+
+.second-container {
+    padding-top: 117px;
+}
+
+.h3-1 {
+    color: #fff;
+    font-weight: 700;
+    line-height: 57.98px;
+    text-transform: uppercase;
+}
+
+.h3-1 {
+    font-size: 32px;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: rainbow 5s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-color 1s ease;
+}
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.h1-gg {
+    font-size: 44px;
+    padding-top: 5px;
+    width: 469px;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: rainbow 5s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-color 1s ease;
+}
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.p {
+    font-size: 21px;
+    color: #fff;
+    width: 450px;
+    line-height: 30.01px;
+    padding-top: 10px;
+}
+
+.p {
+    font-size: 21px;
+    width: 450px;
+    padding-top: 10px;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: rainbow 5s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-color 1s ease;
+}
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
+.btn-gg {
+    padding: 26px 38px;
+    border-radius: 14px;
+    border: none;
+    background: #0075ff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn-container {
+    display: flex;
+    margin-top: 11px;
+    gap: 10px;
+}
+
+.number {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.h3-number {
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: rainbow 5s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-color 2s ease; /* Задает скорость изменения цвета */
+}
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.p-2 {
+    width: 460px;
+    color: #6e7191;
+    font-size: 21px;
+}
+
+.h1-text {
+    font-size: 48px;
+    padding-bottom: 9px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+
+.btn-1 {
+    padding: 26px 38px;
+    border-radius: 14px;
+    font-weight: 700;
+    font-size: 18px;
+    background: #0075ff;
+    color: #fff;
+    border: none;
+    margin-right: 28px;
+}
+.btn:hover {
+    background-color: red;
+    color: black;
+    transition: background-color 2s ease;
+}
+.h3-gg {
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: rainbow 5s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-color 2s ease; /* Задает скорость изменения цвета */
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.h4-gg {
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: rainbow 5s linear infinite;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-color 2s ease; /* Задает скорость изменения цвета */
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
