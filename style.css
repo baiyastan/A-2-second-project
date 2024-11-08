@@ -297,3 +297,13 @@ nav a:hover {
 .differ{
     font-family: "Nabla", system-ui;
 }
+.content1 {
+    width: 800px;
+    height: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px black;
+}
