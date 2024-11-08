@@ -66,3 +66,105 @@ cursor: pointer;
 box-shadow: 0px 10px 25px 0px rgba(210, 181, 116, 0.1);
 background: rgb(255, 255, 255);
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+
+.container {
+    padding: 54px 230px 140px;
+}
+
+
+.header {
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo i {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.logo p {
+    color: #333;
+    margin: 0;
+}
+
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 30px;
+}
+
+.text {
+    padding: 145px 20px 0 0;
+
+}
+
+.h4 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+
+.btn button {
+    width: 243px;
+    height: 68px;
+    font-size: 20px;
+    background-color: #6E9C9F;
+    color: white;
+    border: none;
+    transition: color 0.5s;
+}
+
+.btn button:hover {
+    color: black;
+}
+
+.btn i {
+    width: 243px;
+    height: 68px;
+    font-size: 35px;
+    justify-content: center;
+    color: #6E9C9F;
+}
+
+
